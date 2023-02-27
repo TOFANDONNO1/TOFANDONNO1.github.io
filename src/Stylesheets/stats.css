@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #stats {
+    position: relative;
+    background-color: #303030;
+  }
+  
+  .github-profile {
+    font-size: 2rem;
+    color: #c12020;
+    position: absolute;
+    right: 20px;
+    top: 60%;
+  }
+  .github-profile:hover {
+    cursor: pointer;
+  }
+  
+  #stats div {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #stats h2 {
+    text-align: center;
+    font-size: 3rem;
+    /* font-family: 'Rajdhani', sans-serif; */
+    padding: 1.6rem;
+    padding-top: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  .img2 {
+    height: 200px;
+  }
+  .img1 {
+    margin: 1rem 0;
+    height: 200px;
+  }
+  .stats-div {
+    padding-bottom: 3rem;
+  }

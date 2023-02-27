@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .about-section {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    background-color: #303030;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    /* font-family: 'Rajdhani', sans-serif; */
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .about-section article {
+    max-width: 1100;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+  
+  .about-section h4 {
+    padding-top: 3rem;
+    font-size: 5rem;
+    /* font-family: 'Rajdhani', sans-serif; */
+  }
+  
+  .about-section p {
+    font-size: 1.4rem;
+    padding: 1rem;
+    /* font-family: 'Rajdhani', sans-serif; */
+    line-height: 1.7;
+    color: #adadad;
+  }
+  
+  .about-section small {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .about-section .institute {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    color: #48bb78;
+    border-radius: 10px;
+  }
+  
+  .brand {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .brand strong {
+    font-size: 3rem;
+    font-family: 'Tangerine', cursive;
+  }
+  
+  .abuot-p {
+    width: 70%;
+  }
+  .abuot-p strong {
+    font-weight: bold;
+    color: #c12020;
+  }

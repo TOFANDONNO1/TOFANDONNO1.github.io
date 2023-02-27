@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1rem;
+    font-size: .8rem;
+    height: 4rem;
+    color: rgba(255,255,255,.5);
+    font-weight: 300;
+    background-color: #303030;
+    text-align: center;
+  }
+  
+  footer small{
+    display: inline-block;
+    padding-bottom: .25rem;
+  }
+  
+  footer small a{
+    font-size: 1.2rem;
+  }
