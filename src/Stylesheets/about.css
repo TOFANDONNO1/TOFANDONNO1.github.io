@@ -11,12 +11,12 @@
     text-align: center;
     font-size: 3rem;
     /* font-family: 'Rajdhani', sans-serif; */
-    padding: 2rem;
+    padding-top: 5rem;
     margin-top: 1rem;
   }
   
   .about-section article {
-    max-width: 1100;
+    max-width: 1000;
     padding: 0 32px;
     margin: 0 auto;
   }

@@ -51,7 +51,7 @@ export default function Header() {
               </li>
 
               <li className='active'>
-                <a class="nav-link resume"  id="resume-button-2" href='./assets/docs/Soumya_Ranjan_Resume.pdf' download>
+                <a class="nav-link resume"  id="resume-button-1" href='./assets/docs/Soumya_Ranjan_Resume.pdf' download>
                   Resume
                   <span></span>
                   <span></span>
