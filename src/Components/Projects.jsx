@@ -20,7 +20,7 @@ let projects = [
     img: 'foodmeat.png',
     title: 'E-commerce store meat and othe masala product',
     discription:
-    'At FoodMeat, we’re big meat-lovers. And by big, we mean huge. So when it comes to the meat we put on your plate, we’re extremely picky. Every single product is handpicked by a team with years of experience.',
+    'At FoodMeat product is handpicked by a team with years of experience.',
     tags: ['react', 'react-router',"scss", 'css'],
     repolink: 'https://github.com/TOFANDONNO1/FoodMeat',
     livelink: 'https://foodmeatwebsitsoumya.netlify.app/',
@@ -30,7 +30,7 @@ let projects = [
     img: 'industrial.png',
     title: 'Industrial product website',
     discription:
-      'At Industrybuying.com, we are committed to offering the best online shopping experience to our customers',
+      'At Industrybuying.com, we are committed to the best online shopping  to our customers',
     tags: ['react', 'react-router','react-redux', 'jsx','chackra-ui', 'css'],
     repolink: 'https://github.com/puja2795/mindless-wool-6764',
     livelink: '',
@@ -40,7 +40,7 @@ let projects = [
     img: 'thehindu.png',
     title: 'New Paper in Online Read ',
     discription:
-      'Todays News Headlines, Breaking News & Latest News from India and World, News from Politics, Sports, Business, Arts and Entertainment.',
+      'Todays News Headlines, Breaking News & Latest News from India and World.',
     tags: ["html", 'css'],
     repolink: 'https://github.com/TOFANDONNO1/bright-stamp-7114',
     livelink: 'https://phenomenal-nasturtium-9dbe90.netlify.app/',

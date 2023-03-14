@@ -14,7 +14,7 @@ import { SiNetlify } from 'react-icons/si';
 function Tools() {
   return (
     <div id='tool'>
-      <section id='tools' style={{ backgroundColor: '#303030' }}>
+      <section id='tools' style={{ backgroundColor: 'black' }}>
         <h2> <u>Tools</u> </h2>
         <div>
           <figure className='figure2'>
