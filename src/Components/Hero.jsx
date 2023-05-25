@@ -1,3 +1,4 @@
+import { Link } from '@chakra-ui/react';
 import React from 'react';
 
 export default function Hero() {
@@ -59,9 +60,24 @@ export default function Hero() {
             </ul>
           </div>
           <figure style={{ paddingTop: '3rem'}}>
-            <img class="home-img" src='https://avatars.githubusercontent.com/u/103572396?v=4' alt='Soumya' />
+            <img className="home-img" src='https://avatars.githubusercontent.com/u/103572396?v=4' alt='Soumya' />
           </figure>
         </article>
+        {/* <button id="resume-button-2" style={{backgroundColor:'yellow'}}>
+              <Link
+             id="resume-link-2"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1kb_M7bXCGGET0NVde1GLPsApcoG-etSK/view?usp=sharing"
+                )
+              }
+              href={"./assets/docs/Soumya_Ranjan_Resume.pdf"}
+              target={"_blank"}
+              download
+            >
+              Resume
+            </Link>
+              </button>    */}
       </section>
     </>
   );

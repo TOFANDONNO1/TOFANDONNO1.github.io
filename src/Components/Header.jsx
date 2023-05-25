@@ -27,15 +27,15 @@ export default function Header() {
           <nav className='nav'>
             <ul className='flex sm-column'>
               <li className='list'>
-                <a class="nav-link home" href='#home'>Home</a>
+                <a className="nav-link home" href='#home'>Home</a>
               </li>
 
               <li className='list'>
-                <a  class="nav-link about" href='#about'>About</a>
+                <a  className="nav-link about" href='#about'>About</a>
               </li>
 
               <li className='list'>
-                <a  class="nav-link skills" href='#skills'>Skills</a>
+                <a  className="nav-link skills" href='#skills'>Skills</a>
               </li>
 
               <li className='list'>
@@ -43,15 +43,15 @@ export default function Header() {
               </li>
 
               <li className='list'>
-                <a class="nav-link projects" href='#projects'>Projects</a>
+                <a className="nav-link projects" href='#projects'>Projects</a>
               </li>
 
               <li className='list'>
-                <a class="nav-link contact" href='#contact'>Contact</a>
+                <a className="nav-link contact" href='#contact'>Contact</a>
               </li>
 
               <li className='active'>
-                <a class="nav-link resume"  id="resume-button-1" href='./assets/docs/Soumya_Ranjan_Resume.pdf' download>
+                <a className="nav-link resume"  id="resume-button-1" href='./assets/docs/Soumya_Ranjan_Resume.pdf' download>
                   Resume
                   <span></span>
                   <span></span>

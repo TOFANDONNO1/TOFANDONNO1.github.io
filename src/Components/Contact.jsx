@@ -65,7 +65,7 @@ export default function Contact() {
   
           <div className='flex-20 sm-flex-50 '>
             <h3 className='contact-h3'> Want To Know More !</h3>
-            <div className='resume '>
+            {/* <div className='resume '>
               <div className='view-box sm-flex-45 '>
                 <a   id="resume-link-2" href='./assets/docs/Soumya_Ranjan_Resume.pdf' download>
                   Download Resume{' '}
@@ -79,7 +79,7 @@ export default function Contact() {
                   View Resume{' '}
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

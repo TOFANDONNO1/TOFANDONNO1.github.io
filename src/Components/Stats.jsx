@@ -8,19 +8,18 @@ export default function Stats() {
       <section id='stats'>
         <h2> <u>Github Stats</u> </h2>
         <div className='sm-stata-div stats-div' >
-          <img
-         
+          <img id="github-stats-card"
             className='img2 mn-sm-bet'
-            src='https://github-readme-stats-sigma-five.vercel.app/api?username=TOFANDONNO1'
+            src='https://github-readme-stats.vercel.app/api?username=TOFANDONNO1&show_icons=true&theme=dark'
             alt='TOFANDONNO1'
-            id="github-stats-card"
+           
           />
           <img id="github-top-langs"
             className='img1 mn-sm-bet'
             src='https://github-readme-stats.vercel.app/api/top-langs/?username=TOFANDONNO1&layout=compact'
             alt='TOFANDONNO1'
           />
-          <img src="https://camo.githubusercontent.com/8720573720ce17c2a297deab9e388d8c7f38e5019cfdee08bca514b96205c087/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d746f66616e646f6e6e6f3126" alt="Stak" id="github-streak-stats"/>
+          <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=TOFANDONNO1" alt="Stak" />
 
         </div>
         <div className='git-icon'>

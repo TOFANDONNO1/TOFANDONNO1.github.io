@@ -27,13 +27,13 @@ let projects = [
   },
   {
     id: 2,
-    img: 'industrial.png',
-    title: 'Industrial product website',
+    img: 'healthyway.png',
+    title: 'Healthyway stay healthy',
     discription:
-      'At Industrybuying.com, we are committed to the best online shopping  to our customers',
-    tags: ['react', 'react-router','react-redux', 'jsx','chackra-ui', 'css'],
-    repolink: 'https://github.com/puja2795/mindless-wool-6764',
-    livelink: '',
+      ' comprehensive nutrition tracking app on earth. our nutritional data is curated from verified, accurate sources.',
+    tags: ['react', 'react-router','react-redux', 'jsx','chackra-ui', 'css','mongodb','cyclic'],
+    repolink: 'https://github.com/somesh9870/slow-argument-2201',
+    livelink: 'https://healthy-way.vercel.app/',
   },
   {
     id: 3,
@@ -114,11 +114,11 @@ function Projects() {
           {frontProjects && frontProjects.map((item, index) => {
             return (
               <div
-                className='flex-30 project-item sm-flex-45 mn-sm-bet'
+                className='flex-30 project-item sm-flex-45 mn-sm-bet project-card'
                 key={index}
-                class="project-card"
+                
               >
-                <div class="project-card">
+                <div className="project-card">
                   <figure className='figure'>
                     <img
                       className='full-width'
@@ -126,20 +126,20 @@ function Projects() {
                       alt=''
                     />
                   </figure>
-                  <h3 class="project-title" className='project-name'> {item.title}</h3>
-                  <p  class="project-description" className='discription'>{item.discription} </p>
-                  <div className='tag-box'  class="project-tech-stack" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
+                  <h3  className='project-name project-title'> {item.title}</h3>
+                  <p  className='project-description discription'>{item.discription} </p>
+                  <div className='tag-box project-tech-stack' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
                     {item.tags.map((tag) => {
                       return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
                   </div>
                   <div className='repolink-box' >
-                    <abbr title='Go To Repository' class="project-github-link">
+                    <abbr title='Go To Repository' className="project-github-link">
                       <a href={item.repolink} target='blank'>
                         <VscGithub />
                       </a>
                     </abbr>
-                    <abbr title='Go To Live Demo'  class="project-deployed-link">
+                    <abbr title='Go To Live Demo'  className="project-deployed-link">
                       <a href={item.livelink} target='blank'>
                         {item.tags.includes('css') ? <FaEye /> : ''}
                       </a>
