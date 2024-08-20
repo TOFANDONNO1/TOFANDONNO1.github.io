@@ -1,0 +1,97 @@
+/* Githubstats.css */
+.github-stats-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid;
+  }
+  
+  .github-stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .github-stats-card {
+    flex: 1 1 50%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #fff; /* Ensure card background is white */
+  }
+  
+  .github-stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .github-stats-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .react-activity-calendar {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Add some padding if needed */
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+  }
+  
+  /* Ensure visibility of text elements */
+  .github-stats-card h3, .github-stats-card p {
+    color: #333; /* Dark text color for visibility */
+  }
+  .github-stats-card{
+    color: rgb(0, 0, 0);
+  }
+  .github-profile-link {
+    margin-top: 40px;
+  }
+  
+  .github-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .github-stats-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .github-link {
+      font-size: 1rem;
+    }
+  }
+  

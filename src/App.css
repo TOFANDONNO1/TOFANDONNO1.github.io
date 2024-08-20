@@ -18,6 +18,11 @@ body {
 .App {
   text-align: center
 } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .proj {
     margin-left: 2%;
@@ -140,3 +145,26 @@ body {
     }
   }
   
+.app-css{
+  border: 1px solid rgba(199, 180, 74, 0.973);
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .app-css{
+    width: 100%;
+
+  }
+  
+}
+
+/* Define CSS variables for light and dark themes */
+:root {
+  --button-bg-light: #007bff;
+  --button-bg-dark: #333;
+  --button-hover-bg-light: #0056b3;
+  --button-hover-bg-dark: #555;
+  --text-color-light: #ffffff;
+  --text-color-dark: #ffffff;
+}

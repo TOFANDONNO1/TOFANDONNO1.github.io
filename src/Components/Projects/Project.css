@@ -1,0 +1,132 @@
+/* slick slider default styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.projects-section {
+  padding: 80px ;
+  background-color: #f4f4f4;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 20px;
+}
+
+.project-even .project-details {
+  order: 2;
+}
+
+.project-odd .project-details {
+  order: 1;
+}
+
+.project-slider {
+  flex: 1;
+  max-width: 45%;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100%;
+    /* max-height: 400px; */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+.project-details {
+  flex: 1;
+  max-width: 45%;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project-tech {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+.project-link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-link:hover {
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper {
+    flex-direction: column;
+  }
+
+  .project-slider,
+  .project-details {
+    max-width: 100%;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  .project-tech {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+
+  .project-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-link {
+    font-size: 0.9rem;
+  }
+}

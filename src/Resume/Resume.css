@@ -1,0 +1,24 @@
+/* Button styles */
+.resume-button {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: #9aabbe;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
