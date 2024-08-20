@@ -28,7 +28,7 @@ const About = () => {
             efficient applications. I’m always open to new opportunities and
             collaborations.
           </p>
-         <ResumeButton/>
+         <ResumeButton/> 
         </motion.div>
         <motion.div
           className="about-image"
